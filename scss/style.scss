@@ -352,6 +352,8 @@ body {
 
 
 .previewty_consult {
+  position: relative;
+  z-index: 2;
   padding: 68px 0;
   .wrapper_inner {
     display: flex;

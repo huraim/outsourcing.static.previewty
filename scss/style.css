@@ -273,6 +273,8 @@ body {
     .previewty_cover .scroll_info {
       width: 20px; } }
 .previewty_consult {
+  position: relative;
+  z-index: 2;
   padding: 68px 0; }
   .previewty_consult .wrapper_inner {
     display: flex;
