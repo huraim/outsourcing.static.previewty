@@ -47,9 +47,9 @@ body {
     display: block; } }
 .wrapper {
   background-image: url("../images/previewty_bg_pc.svg");
-  background-position: center top;
-  background-repeat: no-repeat;
-  background-size: cover;
+  background-position: center -510px;
+  background-repeat: repeat;
+  background-size: 150%;
   color: #fff; }
 
 .wrapper_inner {
