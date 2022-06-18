@@ -1,6 +1,18 @@
 @charset "utf-8";
 @import "reset";
 
+@keyframes moving {
+	0% {
+    bottom: 32px;
+	}
+	50% {
+    bottom: 42px;
+	}
+	100% {
+    bottom: 32px;
+	}
+}
+
 html {
   font-family: 'Open Sans', sans-serif;
   background-color: #111;
@@ -8,10 +20,21 @@ html {
 
 body {
   overflow-x: hidden;
+  box-sizing: border-box;
+}
+
+.onlyMobileBr {
+  display: none;
+}
+@media only screen and (max-width: 767px) {
+  .onlyMobileBr {
+    display: block;
+  }
 }
 
 .wrapper {
   background-image: url('../images/previewty_bg_pc.svg');
+  background-position: center top;
   background-repeat: no-repeat;
   background-size: cover;
   color: #fff;
@@ -20,6 +43,35 @@ body {
 .wrapper_inner {
   margin: 0 auto;
   width: 1534px;
+  box-sizing: border-box;
+}
+
+@media only screen and (max-width: 1574px) {
+  .wrapper_inner {
+    width: 1200px;
+  }
+}
+
+@media only screen and (max-width: 1366px) {
+  .wrapper_inner {
+    width: 992px;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  .wrapper_inner {
+    width: 100%;
+    padding: 0 20px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .wrapper {
+    background-image: url('../images/previewty_bg_mobile.svg');
+    background-position: center -160px;
+    background-repeat: repeat;
+    background-size: 180%;
+  }
 }
 
 .blur {
@@ -44,6 +96,12 @@ body {
   width: 100%;
   padding: 0 100px;
   box-sizing: border-box;
+  .previewty_logo_pc {
+    display: block;
+  }
+  .previewty_logo_mobile {
+    display: none;
+  }
   .previewty_gnb_right {
     display: flex;
     align-items: center;
@@ -65,7 +123,43 @@ body {
       cursor: pointer;
     }
   }
-  
+}
+@media only screen and (max-width: 1574px) {
+  .previewty_gnb {
+    padding: 0 60px;
+  }
+}
+@media only screen and (max-width: 1366px) {
+  .previewty_gnb {
+    padding: 0 30px;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  .previewty_gnb {
+    padding: 0 20px;
+    .previewty_gnb_right {
+      .korea_btn, .vietnam_btn {
+        display: none;
+      }
+    }
+  }
+}
+@media only screen and (max-width: 767px) {
+  .previewty_gnb {
+    height: 72px;
+    .previewty_logo_pc {
+      display: none;
+    }
+    .previewty_logo_mobile {
+      display: block;
+    }
+    .previewty_gnb_right {
+      .gnb_btn {
+        margin-left: 0;
+      }
+    }
+  }
 }
 
 .previewty_cover {
@@ -73,7 +167,7 @@ body {
   display: flex;
   flex-direction: column;
   padding-top: 60px;
-  width: 100vw;
+  width: 100%;
   height: 100vh;
   box-sizing: border-box;
   .wrapper_inner {
@@ -104,16 +198,68 @@ body {
   .previewty_cover_bg {
     width: 100%;
     position: absolute;
+    left: 50%;
     bottom: 0;
+    transform: translateX(-50%);
   }
   .scroll_info {
     position: absolute;
     left: 50%;
     bottom: 30px;
+    animation: moving ease-in-out 0.8s infinite;
     transform: translateX(-50%);
   }
 }
 
+@media only screen and (max-width: 1574px) {
+  .previewty_cover {
+    .previewty_cover_title {
+      font-size: 42px;
+      line-height: 58px;
+    }
+  }
+}
+@media only screen and (max-width: 1366px) {
+  .previewty_cover {
+    .previewty_cover_face {
+      width: 540px;
+    }
+    .previewty_cover_title {
+      margin-top: 26px;
+      font-size: 32px;
+      line-height: 48px;
+    }
+  }
+}
+@media only screen and (max-width: 767px) {
+  .previewty_cover {
+    padding-top: 0;
+    height: auto;
+    .previewty_cover_face {
+      margin-top: 34px;
+      width: 294px;
+    }
+    .previewty_cover_title {
+      margin-top: 30px;
+      font-size: 20px;
+      line-height: 28px;
+    }
+    .country {
+      margin-top: 8px;
+      img {
+        width: 28px;
+      }
+    }
+    .previewty_cover_bg {
+      transform: translateX(-50%) scale(2);
+    }
+    .scroll_info {
+      width: 20px;
+    }
+  }
+}
+
+
 .previewty_consult {
-  height: 600px;
+  height: 3000px;
 }
