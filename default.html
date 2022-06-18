@@ -1,21 +1,72 @@
 <!DOCTYPE html>
 <html lang="ko">
  <head>
-   <title>Document</title>
+  <title>Previewty</title>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="css/reset.css">
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="scss/style.css">
   <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
   <script src="js/main.js"></script>
-  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet"/>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;500;600;700&display=swap" rel="stylesheet">
   
  </head>
  
  <body>
 
-  
+  <article class="wrapper"> <!-- wrapper START -->
+
+    <section class="previewty_cover">
+      <nav class="previewty_gnb">
+        <a class="previewty_logo" href="./default.html">
+          <img src="./images/previewty_logo_pc.svg" alt="previewty_logo_pc">
+        </a>
+        
+        <div class="previewty_gnb_right">
+          <div class="korea_btn">
+            <img src="./images/korea_small.svg" alt="korea_small">
+            KOREA
+          </div>
+          <div class="vietnam_btn">
+            <img src="./images/vietnam_small.svg" alt="vietnam_small">
+            VIETNAM
+          </div>
+          <div class="gnb_btn">
+            <img src="./images/gnb_btn.svg" alt="gnb_btn">
+          </div>
+        </div>
+      </nav>
+
+      <div class="wrapper_inner"> <!-- wrapper_inner START -->
+        <img src="./images/previewty_cover_face.svg" alt="previewty_cover_face">
+      
+        <h1 class="previewty_cover_title">
+          Công nghệ <span class="gold_gradient">3D Scanning Technology</span> đầu tiên trên thế giới,<br />
+          dẫn đầu thị trường phẫu thuật thẩm mỹ Việt Nam
+        </h1>
+
+        <div class="country">
+          <img src="./images/korea_big.svg" alt="korea_big">
+          <img src="./images/vietnam_big.svg" alt="vietnam_big">
+        </div>
+      </div> <!-- wrapper_inner END -->
+
+      <img class="previewty_cover_bg" src="./images/previewty_cover_bg.svg" alt="previewty_cover_bg">
+      <img class="scroll_info" src="./images/scroll_info.svg" alt="scroll_info">
+
+    </section>
+
+    <section class="previewty_consult blur">
+      
+    </section>
+
+
+    
+
+    
+
+  </article> <!-- wrapper END -->
 
  </body>
 </html>

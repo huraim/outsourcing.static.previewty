@@ -1,0 +1,118 @@
+/* Reset CSS */
+body, h1, h2, h3, h4, h5, h6, p, dl, ul, dt, dd {
+  margin: 0;
+  padding: 0; }
+
+ul, ol {
+  list-style: none; }
+
+a {
+  text-decoration: none;
+  color: #000; }
+
+img {
+  vertical-align: middle; }
+
+body {
+  font-size: 1em;
+  color: #000; }
+
+html {
+  font-family: 'Open Sans', sans-serif;
+  background-color: #111; }
+
+body {
+  overflow-x: hidden; }
+
+.wrapper {
+  background-image: url("../images/previewty_bg_pc.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fff; }
+
+.wrapper_inner {
+  margin: 0 auto;
+  width: 1534px; }
+
+.blur {
+  backdrop-filter: blur(30px);
+  background-color: rgba(255, 255, 255, 0.03); }
+
+.gold_gradient {
+  background: -webkit-linear-gradient(-45deg, #c89749 0%, #ffee9d 13%, #deac55 22%, #fddd90 46%, #e8c576 71%, #ca983e 100%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(135deg, #c89749 0%, #ffee9d 13%, #deac55 22%, #fddd90 46%, #e8c576 71%, #ca983e 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-box-decoration-break: clone;
+  font-weight: 700;
+  text-shadow: 0 0 10px rgba(253, 221, 144, 0.24); }
+
+.previewty_gnb {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 0 100px;
+  box-sizing: border-box; }
+  .previewty_gnb .previewty_gnb_right {
+    display: flex;
+    align-items: center; }
+    .previewty_gnb .previewty_gnb_right .korea_btn, .previewty_gnb .previewty_gnb_right .vietnam_btn {
+      display: flex;
+      align-items: center;
+      font-size: 16px;
+      line-height: 16px;
+      font-weight: 500; }
+      .previewty_gnb .previewty_gnb_right .korea_btn img, .previewty_gnb .previewty_gnb_right .vietnam_btn img {
+        margin-right: 8px; }
+    .previewty_gnb .previewty_gnb_right .vietnam_btn {
+      margin-left: 24px; }
+    .previewty_gnb .previewty_gnb_right .gnb_btn {
+      margin-left: 36px;
+      cursor: pointer; }
+
+.previewty_cover {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  padding-top: 60px;
+  width: 100vw;
+  height: 100vh;
+  box-sizing: border-box; }
+  .previewty_cover .wrapper_inner {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center; }
+  .previewty_cover .previewty_cover_title {
+    margin-top: 38px;
+    font-size: 48px;
+    line-height: 64px;
+    font-weight: 600; }
+  .previewty_cover .country {
+    margin-top: 16px;
+    margin-bottom: 120px;
+    display: flex; }
+    .previewty_cover .country img {
+      margin-left: 12px; }
+      .previewty_cover .country img:first-child {
+        margin-left: 0; }
+  .previewty_cover .previewty_cover_bg {
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+    bottom: 0; }
+  .previewty_cover .scroll_info {
+    position: absolute;
+    left: 50%;
+    bottom: 30px;
+    transform: translateX(-50%); }
+
+.previewty_consult {
+  height: 600px; }
+
+/*# sourceMappingURL=style.css.map */

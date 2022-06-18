@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="40" height="40" viewBox="0 0 40 40">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="사각형_2341" data-name="사각형 2341" width="40" height="40" rx="4" transform="translate(1577 119)" fill="#fff" stroke="#707070" stroke-width="1"/>
+    </clipPath>
+  </defs>
+  <g id="마스크_그룹_4" data-name="마스크 그룹 4" transform="translate(-1577 -119)" clip-path="url(#clip-path)">
+    <g id="South_Korea" data-name="South Korea" transform="translate(1573.215 115.218)">
+      <rect id="사각형_2318" data-name="사각형 2318" width="47.57" height="47.57" fill="#fff" stroke="#707070" stroke-width="1"/>
+      <g id="Circle" transform="translate(17.246 17.247)">
+        <path id="패스_3711" data-name="패스 3711" d="M59.778,71.35a3.27,3.27,0,1,0,5.441,3.628,3.269,3.269,0,1,1,5.439,3.628,6.539,6.539,0,0,1-10.88-7.255Z" transform="translate(-58.678 -68.438)" fill="#0047a0"/>
+        <path id="패스_3712" data-name="패스 3712" d="M72.5,68.85a3.269,3.269,0,1,0-5.439-3.628A3.27,3.27,0,1,1,61.619,61.6,6.539,6.539,0,1,1,72.5,68.85Z" transform="translate(-60.52 -58.683)" fill="#cd2e3a"/>
+      </g>
+      <rect id="사각형_2319" data-name="사각형 2319" width="2.998" height="1.09" transform="matrix(0.555, -0.832, 0.832, 0.555, 31.493, 32.851)"/>
+      <rect id="사각형_2320" data-name="사각형 2320" width="2.998" height="1.09" transform="matrix(0.555, -0.832, 0.832, 0.555, 33.456, 29.905)"/>
+      <rect id="사각형_2321" data-name="사각형 2321" width="2.998" height="1.09" transform="matrix(0.555, -0.832, 0.832, 0.555, 32.853, 33.76)"/>
+      <rect id="사각형_2322" data-name="사각형 2322" width="2.998" height="1.09" transform="matrix(0.555, -0.832, 0.832, 0.555, 34.817, 30.812)"/>
+      <rect id="사각형_2323" data-name="사각형 2323" width="2.998" height="1.09" transform="matrix(0.555, -0.832, 0.832, 0.555, 30.132, 31.945)"/>
+      <rect id="사각형_2324" data-name="사각형 2324" width="2.998" height="1.09" transform="matrix(0.555, -0.832, 0.832, 0.555, 32.096, 28.997)"/>
+      <rect id="사각형_2325" data-name="사각형 2325" width="1.09" height="6.538" transform="matrix(0.832, -0.555, 0.555, 0.832, 12.905, 27.11)"/>
+      <rect id="사각형_2326" data-name="사각형 2326" width="1.09" height="6.538" transform="matrix(0.832, -0.555, 0.555, 0.832, 10.184, 28.924)"/>
+      <rect id="사각형_2327" data-name="사각형 2327" width="1.085" height="2.985" transform="matrix(0.834, -0.552, 0.552, 0.834, 13.362, 30.96)"/>
+      <rect id="사각형_2328" data-name="사각형 2328" width="1.09" height="2.998" transform="matrix(0.832, -0.555, 0.555, 0.832, 11.546, 28.016)"/>
+      <rect id="사각형_2329" data-name="사각형 2329" width="1.09" height="6.538" transform="matrix(0.832, -0.555, 0.555, 0.832, 31.493, 14.717)"/>
+      <rect id="사각형_2330" data-name="사각형 2330" width="1.09" height="2.998" transform="matrix(0.832, -0.555, 0.555, 0.832, 34.817, 16.758)"/>
+      <rect id="사각형_2331" data-name="사각형 2331" width="1.09" height="2.998" transform="matrix(0.832, -0.555, 0.555, 0.832, 32.852, 13.81)"/>
+      <rect id="사각형_2332" data-name="사각형 2332" width="1.09" height="2.998" transform="matrix(0.832, -0.555, 0.555, 0.832, 32.096, 18.573)"/>
+      <rect id="사각형_2333" data-name="사각형 2333" width="1.09" height="2.998" transform="matrix(0.832, -0.555, 0.555, 0.832, 30.134, 15.623)"/>
+      <rect id="사각형_2334" data-name="사각형 2334" width="6.538" height="1.09" transform="matrix(0.555, -0.832, 0.832, 0.555, 12.905, 20.46)"/>
+      <rect id="사각형_2335" data-name="사각형 2335" width="6.538" height="1.09" transform="matrix(0.555, -0.832, 0.832, 0.555, 11.544, 19.553)"/>
+      <rect id="사각형_2336" data-name="사각형 2336" width="6.51" height="1.085" transform="matrix(0.552, -0.834, 0.834, 0.552, 10.133, 18.603)"/>
+    </g>
+  </g>
+</svg>
