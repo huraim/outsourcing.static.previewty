@@ -25,6 +25,7 @@ body {
   100% {
     bottom: 32px; } }
 html {
+  overflow-x: hidden;
   font-family: 'Open Sans', sans-serif;
   background-color: #111; }
 
@@ -189,7 +190,6 @@ body {
       margin-top: 34px;
       width: 294px; }
     .previewty_cover .previewty_cover_title {
-      margin-top: 30px;
       font-size: 20px;
       line-height: 28px; }
     .previewty_cover .country {
