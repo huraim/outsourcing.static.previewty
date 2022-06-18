@@ -27,6 +27,14 @@ body {
 .onlyMobileBr {
   display: none;
 }
+.unlessPcBr {
+  display: none;
+}
+@media only screen and (max-width: 991px) {
+  .unlessPcBr {
+    display: block;
+  }
+}
 @media only screen and (max-width: 767px) {
   .onlyMobileBr {
     display: block;
@@ -139,6 +147,7 @@ body {
 @media only screen and (max-width: 991px) {
   .previewty_gnb {
     padding: 0 20px;
+    height: 72px;
     .previewty_gnb_right {
       .korea_btn, .vietnam_btn {
         display: none;
@@ -148,7 +157,6 @@ body {
 }
 @media only screen and (max-width: 767px) {
   .previewty_gnb {
-    height: 72px;
     .previewty_logo_pc {
       display: none;
     }
@@ -232,6 +240,30 @@ body {
     }
   }
 }
+@media only screen and (max-width: 991px) {
+  .previewty_cover {
+    padding-top: 0;
+    height: auto;
+    .previewty_cover_face {
+      width: 440px;
+      margin-top: 50px;
+    }
+    .previewty_cover_title {
+      margin-top: 20px;
+      font-size: 28px;
+      line-height: 44px;
+    }
+    .previewty_cover_bg {
+      transform: translateX(-50%) scale(2);
+    }
+    .country {
+      margin-bottom: 196px;
+    }
+    .scroll_info {
+      width: 26px;
+    }
+  }
+}
 @media only screen and (max-width: 767px) {
   .previewty_cover {
     padding-top: 0;
@@ -246,12 +278,10 @@ body {
     }
     .country {
       margin-top: 8px;
+      margin-bottom: 120px;
       img {
         width: 28px;
       }
-    }
-    .previewty_cover_bg {
-      transform: translateX(-50%) scale(2);
     }
     .scroll_info {
       width: 20px;

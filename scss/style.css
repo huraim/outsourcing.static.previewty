@@ -36,6 +36,12 @@ body {
 .onlyMobileBr {
   display: none; }
 
+.unlessPcBr {
+  display: none; }
+
+@media only screen and (max-width: 991px) {
+  .unlessPcBr {
+    display: block; } }
 @media only screen and (max-width: 767px) {
   .onlyMobileBr {
     display: block; } }
@@ -118,18 +124,17 @@ body {
     padding: 0 30px; } }
 @media only screen and (max-width: 991px) {
   .previewty_gnb {
-    padding: 0 20px; }
+    padding: 0 20px;
+    height: 72px; }
     .previewty_gnb .previewty_gnb_right .korea_btn, .previewty_gnb .previewty_gnb_right .vietnam_btn {
       display: none; } }
 @media only screen and (max-width: 767px) {
-  .previewty_gnb {
-    height: 72px; }
-    .previewty_gnb .previewty_logo_pc {
-      display: none; }
-    .previewty_gnb .previewty_logo_mobile {
-      display: block; }
-    .previewty_gnb .previewty_gnb_right .gnb_btn {
-      margin-left: 0; } }
+  .previewty_gnb .previewty_logo_pc {
+    display: none; }
+  .previewty_gnb .previewty_logo_mobile {
+    display: block; }
+  .previewty_gnb .previewty_gnb_right .gnb_btn {
+    margin-left: 0; } }
 .previewty_cover {
   position: relative;
   display: flex;
@@ -182,6 +187,23 @@ body {
     margin-top: 26px;
     font-size: 32px;
     line-height: 48px; } }
+@media only screen and (max-width: 991px) {
+  .previewty_cover {
+    padding-top: 0;
+    height: auto; }
+    .previewty_cover .previewty_cover_face {
+      width: 440px;
+      margin-top: 50px; }
+    .previewty_cover .previewty_cover_title {
+      margin-top: 20px;
+      font-size: 28px;
+      line-height: 44px; }
+    .previewty_cover .previewty_cover_bg {
+      transform: translateX(-50%) scale(2); }
+    .previewty_cover .country {
+      margin-bottom: 196px; }
+    .previewty_cover .scroll_info {
+      width: 26px; } }
 @media only screen and (max-width: 767px) {
   .previewty_cover {
     padding-top: 0;
@@ -193,11 +215,10 @@ body {
       font-size: 20px;
       line-height: 28px; }
     .previewty_cover .country {
-      margin-top: 8px; }
+      margin-top: 8px;
+      margin-bottom: 120px; }
       .previewty_cover .country img {
         width: 28px; }
-    .previewty_cover .previewty_cover_bg {
-      transform: translateX(-50%) scale(2); }
     .previewty_cover .scroll_info {
       width: 20px; } }
 .previewty_consult {
