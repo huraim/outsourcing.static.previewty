@@ -45,6 +45,57 @@ body {
 @media only screen and (max-width: 767px) {
   .onlyMobileBr {
     display: block; } }
+.text_title {
+  padding-left: 20px;
+  border-left: 4px solid #E60012;
+  font-size: 38px;
+  line-height: 52px;
+  font-weight: 600; }
+
+.text_sub {
+  margin-top: 24px;
+  padding-left: 24px;
+  font-size: 22px;
+  line-height: 32px;
+  font-weight: 300;
+  color: rgba(255, 255, 255, 0.64); }
+
+@media only screen and (max-width: 1574px) {
+  .text_title {
+    font-size: 34px;
+    line-height: 48px; }
+
+  .text_sub {
+    font-size: 20px;
+    line-height: 30px; } }
+@media only screen and (max-width: 1366px) {
+  .text_title {
+    font-size: 30px;
+    line-height: 44px; }
+
+  .text_sub {
+    font-size: 18px;
+    line-height: 28px; } }
+@media only screen and (max-width: 991px) {
+  .text_title {
+    padding-left: 0;
+    border-left: none;
+    font-size: 24px;
+    line-height: 38px; }
+
+  .text_sub {
+    margin-top: 14px;
+    padding-left: 0;
+    font-size: 18px;
+    line-height: 28px; } }
+@media only screen and (max-width: 767px) {
+  .text_title {
+    font-size: 20px;
+    line-height: 28px; }
+
+  .text_sub {
+    font-size: 16px;
+    line-height: 24px; } }
 .wrapper {
   background-image: url("../images/previewty_bg_pc.svg");
   background-position: center -510px;
@@ -222,6 +273,35 @@ body {
     .previewty_cover .scroll_info {
       width: 20px; } }
 .previewty_consult {
+  padding: 68px 0; }
+  .previewty_consult .wrapper_inner {
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+  .previewty_consult .previewty_consult_img {
+    border-radius: 4px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16); }
+  .previewty_consult .text_area {
+    margin-left: 76px; }
+
+@media only screen and (max-width: 1574px) {
+  .previewty_consult .previewty_consult_img {
+    width: 520px; } }
+@media only screen and (max-width: 1366px) {
+  .previewty_consult .previewty_consult_img {
+    width: 420px; } }
+@media only screen and (max-width: 991px) {
+  .previewty_consult {
+    padding: 20px 0; }
+    .previewty_consult .wrapper_inner {
+      flex-direction: column; }
+    .previewty_consult .previewty_consult_img {
+      width: 100%;
+      margin-bottom: 20px; }
+    .previewty_consult .text_area {
+      margin-left: 0;
+      text-align: center; } }
+.previewty_design {
   height: 3000px; }
 
 /*# sourceMappingURL=style.css.map */
