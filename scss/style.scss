@@ -25,8 +25,6 @@ body {
 .blur {
   backdrop-filter: blur(30px);
   background-color: rgba(255, 255, 255, .03);
-  // filter: blur(5px);
-  // -webkit-filter: blur(5px);
 }
 
 .gold_gradient {
@@ -106,7 +104,6 @@ body {
   .previewty_cover_bg {
     width: 100%;
     position: absolute;
-    z-index: -1;
     bottom: 0;
   }
   .scroll_info {

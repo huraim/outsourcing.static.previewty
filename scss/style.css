@@ -104,7 +104,6 @@ body {
   .previewty_cover .previewty_cover_bg {
     width: 100%;
     position: absolute;
-    z-index: -1;
     bottom: 0; }
   .previewty_cover .scroll_info {
     position: absolute;
