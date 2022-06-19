@@ -581,5 +581,24 @@ body {
       margin-top: 8px; }
       .previewty_comment .previewty_comment_img img:first-child {
         margin-top: 0; } }
+.previewty_map {
+  padding: 110px 0; }
+  .previewty_map img {
+    width: 100%; }
+  .previewty_map .previewty_map_text {
+    margin-top: 12px;
+    text-align: center;
+    font-size: 22px;
+    line-height: 22px;
+    color: rgba(255, 255, 255, 0.64);
+    font-weight: 300; }
+
+@media only screen and (max-width: 991px) {
+  .previewty_map {
+    padding: 50px 0; }
+    .previewty_map .previewty_map_text {
+      margin-top: 8px;
+      font-size: 16px;
+      line-height: 22px; } }
 
 /*# sourceMappingURL=style.css.map */

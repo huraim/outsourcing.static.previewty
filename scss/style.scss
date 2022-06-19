@@ -832,6 +832,32 @@ body {
   }
 }
 
+.previewty_map {
+  padding: 110px 0;
+  img {
+    width: 100%;
+  }
+  .previewty_map_text {
+    margin-top: 12px;
+    text-align: center;
+    font-size: 22px;
+    line-height: 22px;
+    color: rgba(255, 255, 255, .64);
+    font-weight: 300;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  .previewty_map {
+    padding: 50px 0;
+    .previewty_map_text {
+      margin-top: 8px;
+      font-size: 16px;
+      line-height: 22px;
+    }
+  }
+}
+
 
 
 
