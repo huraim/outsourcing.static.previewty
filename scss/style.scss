@@ -740,10 +740,34 @@ body {
 
 
 .previewty_center {
-  height: 3000px;
+  padding: 110px 0;
+  img {
+    width: 100%;
+  }
+  .previewty_center_text {
+    margin-top: 12px;
+    text-align: center;
+    font-size: 22px;
+    line-height: 22px;
+    color: rgba(255, 255, 255, .64);
+    font-weight: 300;
+  }
 }
 
+@media only screen and (max-width: 991px) {
+  .previewty_center {
+    padding: 50px 0;
+    .previewty_center_text {
+      margin-top: 10px;
+      font-size: 18px;
+      line-height: 18px;
+    }
+  }
+}
 
+.previewty_comment {
+  padding: 68px 0;
+}
 
 
 
