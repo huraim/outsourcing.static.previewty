@@ -355,6 +355,7 @@ body {
     margin-top: 38px;
     font-size: 0; }
     .previewty_design .previewty_design_report img {
+      width: 250px;
       display: inline-block;
       border-radius: 4px;
       margin-left: 8px;
