@@ -634,11 +634,15 @@ body {
         font-size: 16px;
         line-height: 26px; } }
 @media only screen and (max-width: 767px) {
+  .wrapper_inner.previewty_profile_section {
+    padding: 0; }
+
   .previewty_profile {
-    padding: 32px 16px;
+    padding: 32px 20px;
     text-align: center; }
     .previewty_profile .text_title {
-      margin-bottom: 16px; }
+      margin-bottom: 16px;
+      line-height: 36px; }
     .previewty_profile .previewty_profile_row {
       margin-top: 0;
       padding: 16px 0;

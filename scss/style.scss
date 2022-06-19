@@ -913,11 +913,17 @@ body {
   }
 }
 @media only screen and (max-width: 767px) {
+  .wrapper_inner {
+    &.previewty_profile_section {
+      padding: 0;
+    }
+  }
   .previewty_profile {
-    padding: 32px 16px;
+    padding: 32px 20px;
     text-align: center;
     .text_title {
       margin-bottom: 16px;
+      line-height: 36px;
     }
     .previewty_profile_row {
       margin-top: 0;
