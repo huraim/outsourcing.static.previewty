@@ -24,7 +24,6 @@ window.addEventListener('load', () => {
                     active_num += 1;
                 }
                 for(var i=0; i<packageSlide.children.length; i++) {
-                    console.log(packageSlide.children[i]);
                     packageSlide.children[i].classList.remove('active');
                 }
                 document.querySelector(`#previewty_package_${active_num}`).classList.add('active')
@@ -39,7 +38,6 @@ window.addEventListener('load', () => {
                     active_num -= 1;
                 }
                 for(var i=0; i<packageSlide.children.length; i++) {
-                    console.log(packageSlide.children[i]);
                     packageSlide.children[i].classList.remove('active');
                 }
                 document.querySelector(`#previewty_package_${active_num}`).classList.add('active')
