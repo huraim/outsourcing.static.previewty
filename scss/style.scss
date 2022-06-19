@@ -1027,6 +1027,40 @@ body {
   }
 }
 
+.previewty_package {
+  padding: 50px 0;
+  font-size: 0;
+  .wrapper_inner {
+    position: relative;
+  }
+  .previewty_package_slide_virtual {
+    width: 100%;
+    height: 520px;
+  }
+  .previewty_package_slide_wrap {
+    position: absolute;
+    left: 0;
+    top: 0;
+    overflow-x: scroll;
+    .previewty_package_slide {
+      width: max-content;
+      img {
+        display: inline-block;
+        height: 520px;
+        margin-left: 24px;
+        border-radius: 4px;
+        &:first-child {
+          margin-left: 0;
+        }
+      }
+    }
+    
+    
+  }
+  
+}
+
+
 
 @media only screen and (max-width: 1574px) {
 
