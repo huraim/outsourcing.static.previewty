@@ -841,5 +841,7 @@ body {
 @media only screen and (max-width: 767px) {
   .previewty_single .text_title {
     line-height: 36px; } }
+.previewty_terms {
+  height: 3000px; }
 
 /*# sourceMappingURL=style.css.map */
