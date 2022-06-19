@@ -830,7 +830,8 @@ body {
   .previewty_single #previewty_single_img {
     height: 868px;
     margin-top: 40px;
-    box-shadow: 0 0 20px rgba(230, 0, 18, 0.7); }
+    box-shadow: 0 0 20px rgba(230, 0, 18, 0.7);
+    border-radius: 4px; }
 
 @media only screen and (max-width: 991px) {
   .previewty_single #previewty_single_img {
@@ -842,6 +843,44 @@ body {
   .previewty_single .text_title {
     line-height: 36px; } }
 .previewty_terms {
-  height: 3000px; }
+  padding: 50px 0; }
+  .previewty_terms .previewty_terms_text {
+    border-radius: 4px;
+    padding: 20px;
+    max-height: 600px;
+    overflow-y: overlay;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 300;
+    color: rgba(255, 255, 255, 0.54); }
+    .previewty_terms .previewty_terms_text::-webkit-scrollbar {
+      padding: 4px;
+      width: 6px; }
+    .previewty_terms .previewty_terms_text::-webkit-scrollbar-thumb {
+      background-color: transparent;
+      border-radius: 2px; }
+    .previewty_terms .previewty_terms_text::-webkit-scrollbar-thumb {
+      background-color: rgba(255, 255, 255, 0.2); }
+    .previewty_terms .previewty_terms_text strong {
+      color: rgba(255, 255, 255, 0.74);
+      font-weight: 500;
+      font-size: 18px;
+      line-height: 24px; }
+  .previewty_terms .previewty_terms_footer {
+    margin-top: 16px;
+    text-align: center;
+    font-size: 16px;
+    line-height: 24px;
+    color: rgba(255, 255, 255, 0.74);
+    font-weight: 300; }
+
+table {
+  width: 100%; }
+  table th, table td {
+    padding: 16px; }
+
+table, th, td {
+  border: 1px solid rgba(255, 255, 255, 0.54);
+  border-collapse: collapse; }
 
 /*# sourceMappingURL=style.css.map */
