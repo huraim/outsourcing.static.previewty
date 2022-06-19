@@ -390,10 +390,12 @@ body {
       top: calc(100% + 10px);
       font-size: 16px;
       line-height: 16px; }
-    .previewty_design .previewty_design_face_area .previewty_design_face.before::before {
-      top: calc(100% + 8px);
-      font-size: 14px;
-      line-height: 14px; }
+    .previewty_design .previewty_design_face_area .previewty_design_face.before {
+      margin-right: -19px; }
+      .previewty_design .previewty_design_face_area .previewty_design_face.before::before {
+        top: calc(100% + 8px);
+        font-size: 14px;
+        line-height: 14px; }
     .previewty_design .text_area {
       width: 100%;
       margin-top: 60px;

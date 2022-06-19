@@ -534,6 +534,7 @@ body {
           }
         }
         &.before {
+          margin-right: -19px;
           &::before {
             top: calc(100% + 8px);
             font-size: 14px;
