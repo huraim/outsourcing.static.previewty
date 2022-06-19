@@ -954,7 +954,78 @@ body {
   }
 }
 
+.previewty_video {
+  padding: 70px 0;
+  font-size: 0;
+  text-align: center;
+  iframe {
+    width: calc((100% - 24px)/2);
+    height: 410px;
+    border: none;
+    border-radius: 4px;
+    margin-left: 24px;
+    &:first-child {
+      margin-left: 0;
+    }
+  }
+  .previewty_home_btn {
+    font-size: 34px;
+    line-height: 34px;
+    color: #fff;
+    margin-top: 34px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 26px 60px 30px 60px;
+    border-radius: 100px;
+    background: -webkit-linear-gradient(-45deg, rgba(251,0,158,1) 0%,rgba(230,0,18,1) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(135deg, rgba(251,0,158,1) 0%,rgba(230,0,18,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    .previewty_home_arrow {
+      margin-left: 16px;
+      width: 30px;
+    }
+  }
+}
 
+@media only screen and (max-width: 1366px) {
+  .previewty_video {
+    .previewty_home_btn {
+      font-size: 30px;
+      line-height: 30px;
+    }
+  }
+}
+@media only screen and (max-width: 991px) {
+  .previewty_video {
+    padding: 50px 0;
+    iframe {
+      height: 300px;
+    }
+  }
+}
+@media only screen and (max-width: 767px) {
+  .previewty_video {
+    iframe {
+      width: 100%;
+      margin-left: 0;
+      margin-top: 24px;
+      &:first-child {
+        margin-top: 0;
+      }
+    }
+    .previewty_home_btn {
+      margin-top: 24px;
+      width: 100%;
+      padding: 16px 0 20px 0;
+      font-size: 24px;
+      line-height: 24px;
+      box-sizing: border-box;
+      .previewty_home_arrow {
+        width: 22px;
+      }
+    }
+  }
+}
 
 
 @media only screen and (max-width: 1574px) {
